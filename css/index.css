@@ -1,0 +1,83 @@
+#header {
+    /*background: red;*/
+    height: 60px;
+    text-align: left;
+    padding-right: 15px;
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+#header a{
+    color: black;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+#header a:hover{
+    color: blue;
+}
+
+#header a.more-product{
+    color: white;
+    display: inline-block;
+    background: #3388ff;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+
+#content{
+    /*background: blue;*/
+    margin-top: 70px;
+    text-align: center;
+}
+
+#content img{
+    width: 270px;
+    height: 129px;
+}
+
+#content div{
+    line-height: 30px;
+}
+
+#content div input{
+
+    width: 526px;
+    height: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+#content div input:focus{
+    border: 0px;
+    outline: 1px solid red;
+
+
+}
+
+#content div a{
+    background: #3385ff;
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+}
+
+
+#footer{
+    /*background: green;*/
+    margin-top: 100px;
+    text-align: center;
+}
+
+#footer a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
